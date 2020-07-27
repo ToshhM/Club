@@ -1,4 +1,4 @@
-const ratio = .1;
+const ratio = .2;
 const options = {
     root: null,
     rootMargin: '0px',
@@ -10,10 +10,13 @@ const options = {
           if(entry.intersectionRatio > ratio){
               console.log('visible');
               entry.target.classList.add('reveal-visible')
-              observer.unobserbe(entry.target)
+              observer.unobserve(entry.target)
           }
       })
       console.log('handleIntersect')
   }
 const observer = new IntersectionObserver(handleIntersect, options)
+document.querySelectorAll('.reveal').forEach(function (r){
+    observer.observe(r)
+})
 observer.observe(document.querySelector('.reveal'))

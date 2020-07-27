@@ -122,7 +122,7 @@ a:nth-child(5){
     
     
 }
-#paragraph1{
+.paragraph1{
     font-size:25px;
     text-align: center;
 }
@@ -193,5 +193,5 @@ a:nth-child(5){
 .reveal-visible{
     opacity: 1;
     transform:translateY(0) ;
-    transition: .3s;
+    transition: 1s cubic-bezier(.5, 0, 0, 1);
 }
