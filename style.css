@@ -3,7 +3,7 @@
     color: white;
 }
 body{
-    background: rgb(2,2,2);
+background: rgb(2,2,2);
 background: -moz-linear-gradient(36deg, rgba(2,2,2,1) 0%, rgba(85,85,85,1) 100%);
 background: -webkit-linear-gradient(36deg, rgba(2,2,2,1) 0%, rgba(85,85,85,1) 100%);
 background: linear-gradient(36deg, rgba(2,2,2,1) 0%, rgba(85,85,85,1) 100%);
@@ -68,10 +68,7 @@ nav .start-home, a:nth-child(4):hover~.animation{
 a:nth-child(5){
  width: 140px;
 }
-nav .start-home, a:nth-child(5):hover~.animation{
-    width: 100px;
-    left: 470px;
-}
+
 .accueil{
     height: 768px;
     width: auto;
@@ -98,7 +95,7 @@ nav .start-home, a:nth-child(5):hover~.animation{
     width: auto;
     background-color: rgb(54, 54, 35);
     text-align: center;
-    background-image: url("/Images/man_woman_ok.jpg");
+    background-image: url("./Images/man_woman_ok.jpg");
 }
 #line{
     width: 606.725px;
@@ -117,7 +114,7 @@ nav .start-home, a:nth-child(5):hover~.animation{
 .image1{
     width: 50%;
     height: 100%;
-    background-image: url("/Images/naked-rosé-768.jpg");
+    background-image: url("./Images/naked-rosé-768.jpg");
 }
 .box1{
     width: 50%;
@@ -138,10 +135,7 @@ nav .start-home, a:nth-child(5):hover~.animation{
     width: auto;
    
 }
-#titre2{
 
-
-}
 .image2{
     width: 50%;
     height: 100%;
@@ -151,7 +145,7 @@ nav .start-home, a:nth-child(5):hover~.animation{
     width: 50%;
     height: 100%;
     background: rgb(16, 44, 126);
-    background-image: url("/Images/rosé_768.jpg");
+    background-image: url("./Images/rosé_768.jpg");
     
 }
 .tarifs{
@@ -167,7 +161,7 @@ nav .start-home, a:nth-child(5):hover~.animation{
     width: 50%;
     height: 100%;
     background-color: rgb(198, 168, 226);
-    background-image: url("/Images/Carré-girl.jpg");
+    background-image: url("./Images/Carré-girl.jpg");
 }
 .box3{
     width: 50%;
@@ -190,8 +184,14 @@ nav .start-home, a:nth-child(5):hover~.animation{
     width: 50%;
     height: 100%;
     background: rgb(238, 239, 241);
-    background-image: url("/Images/Girl_rosé_768.jpg");
+    background-image: url("./Images/Girl_rosé_768.jpg");
 }
-#titre4{
-  
+.reveal{
+    opacity: 0;
+    transform:translateY(-30px) ;
+}
+.reveal-visible{
+    opacity: 1;
+    transform:translateY(0) ;
+    transition: .3s;
 }
