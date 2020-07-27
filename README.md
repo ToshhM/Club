@@ -1,2 +1,2 @@
 # Club
-TheClub, site vitre pour un club à Marseille
+TheClub, site vitrine pour un club à Marseille
