@@ -1,5 +1,5 @@
 *{
-    font-family: Aleo;
+    font-family: 'Aleo', serif;
     color: white;
 }
 body{
@@ -376,6 +376,9 @@ margin-bottom: 50px;
     
   }
   @media all  and (max-width: 500px) {
+      body{
+          width: auto;
+      }
     #titre1{
         padding: 50px;
     }
