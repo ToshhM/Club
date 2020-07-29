@@ -190,6 +190,11 @@ a:nth-child(5){
     background: rgb(238, 239, 241);
     background-image: url("./Images/Girl_rosé_768.jpg");
 }
+.titreC{
+text-align: center; 
+font-size: 45px; 
+margin-bottom: 50px;
+}
 .reveal{
     opacity: 0;
     transform:translateY(-30px) ;
@@ -339,8 +344,10 @@ a:nth-child(5){
     }
     .button.secondary a:hover {
         color: #ddd;
-    } 
+    }
+
   }
+
   
   /* Desktop menu */
   @media all and (min-width: 768px) {
@@ -366,4 +373,53 @@ a:nth-child(5){
     .menu li.button {
         padding-right: 0;
     }
+    
   }
+  @media all  and (max-width: 500px) {
+    #titre1{
+        padding: 50px;
+    }
+    h1#line{
+        font-size: 30px;
+    }
+    h1#bouche{
+        font-size: 30px;
+    }
+    .image1{
+        display: none;
+    }
+    .box1{
+        width: 100%;
+    }
+    #titre2{
+    border-bottom: 1px solid #fff;
+    }
+    }
+    .horaire{
+        width: 200%;
+    }
+    .box2{
+        display: none;
+    }
+    #titre3{
+        border-bottom: 1px solid #fff;
+        padding: 50px;
+    }
+    .image3{
+        display: none;
+    }
+    .box3{
+        width: auto;
+    }
+    .box4{
+        display: none;
+    }
+    .image4 {
+        width: auto;
+        padding-top: 150px;
+    }
+    .titreC{
+        border-bottom: 1px solid #fff;
+    }
+  
+}
