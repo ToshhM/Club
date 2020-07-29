@@ -376,9 +376,7 @@ margin-bottom: 50px;
     
   }
   @media all  and (max-width: 500px) {
-      body{
-          width: auto;
-      }
+    
     #titre1{
         padding: 50px;
     }
