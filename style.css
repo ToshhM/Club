@@ -2,6 +2,7 @@
     font-family: 'Aleo', serif;
     color: white;
 }
+
 body{
 background: rgb(2,2,2);
 background: -moz-linear-gradient(36deg, rgba(2,2,2,1) 0%, rgba(85,85,85,1) 100%);
@@ -376,9 +377,9 @@ margin-bottom: 50px;
     
   }
   @media screen and (max-width: 500px){
-  body{
-      width: auto;
-  }
+    body{
+        overflow-x:hidden;
+    }
     #titre1{
         padding: 50px;
     }
