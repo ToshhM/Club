@@ -380,6 +380,9 @@ margin-bottom: 50px;
     body{
         overflow-x:hidden;
     }
+    .text{
+        background-image: url("./Images/woman-rosé-500-2.jpg");
+    }
     #titre1{
         padding: 50px;
     }
@@ -392,8 +395,10 @@ margin-bottom: 50px;
     .image1{
         display: none;
     }
+
     .box1{
         width: 100%;
+        background-image: url("./Images/naked-rosé-500.jpg");
     }
     #titre2{
     border-bottom: 1px solid #fff;
@@ -401,6 +406,7 @@ margin-bottom: 50px;
     
     .horaire{
         width: 200%;
+        background-image: url("./Images/rosé_500_reverse.jpg");
     }
     .box2{
         display: none;
@@ -408,12 +414,14 @@ margin-bottom: 50px;
     #titre3{
         border-bottom: 1px solid #fff;
         padding: 50px;
+       
     }
     .image3{
         display: none;
     }
     .box3{
         width: auto;
+        background-image: url("./Images/Carré-girl-500.jpg");
     }
     .box4{
         display: none;
@@ -421,6 +429,7 @@ margin-bottom: 50px;
     .image4 {
         width: auto;
         padding-top: 150px;
+        background-image: url("./Images/Girl_rosé_500.jpg");
     }
     .titreC{
         border-bottom: 1px solid #fff;
