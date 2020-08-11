@@ -121,6 +121,11 @@ table {
     width: auto;
     
 }
+.special{
+    font-size: 25px;
+    text-align: center;
+    margin-top:50px;
+}
 .row{
     font-size: 30px;
 }
@@ -152,6 +157,11 @@ table {
     height: 100%;
     background: rgb(238, 239, 241);
     background-image: url("./Images/Girl_rosé_768.jpg");
+}
+#titre4{
+font-size: 25px;
+text-align: center;
+margin-left: 35px;
 }
 .titreC{
 text-align: center; 
