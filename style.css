@@ -362,6 +362,12 @@ margin-bottom: 50px;
         width: 100%;
         background-image: url("./Images/naked-rosé-500.jpg");
     }
+    .paragraph1{
+        font-size: 19px;
+    }
+    table{
+        width: auto;
+    }
     #titre2{
     border-bottom: 1px solid #fff;
     }
@@ -385,6 +391,14 @@ margin-bottom: 50px;
         width: auto;
         background-image: url("./Images/Carré-girl-500.jpg");
     }
+    .special{
+        font-size: 17px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .container .col{
+        font-size: 20px;
+    }
     .box4{
         display: none;
     }
@@ -396,5 +410,9 @@ margin-bottom: 50px;
     .titreC{
         border-bottom: 1px solid #fff;
     }
-  
+    #titre4 {
+        margin-left: 40px;
+        font-size: larger;
+    }
+ 
 }
