@@ -22,4 +22,21 @@ document.querySelectorAll('.reveal').forEach(function (r){
 observer.observe(document.querySelector('.reveal'));
 
 
-
+var preloader = document.getElementById("loading");
+function myFunction(){
+    Swal.fire({
+        title: '<strong>Avez-vous 18 ans ? <u></u></strong>',
+        icon: 'info',
+        html:
+          'En entrant, sur ce site vous admettez être un adulte ',
+        showCloseButton: true,
+        showCancelButton: true,
+        focusConfirm: false,
+        confirmButtonText:
+          '<i class="fa fa-thumbs-up"></i> Oui !',
+        confirmButtonAriaLabel: 'Thumbs up, great!',
+        cancelButtonText:
+          '<a href="https://www.google.fr/"><i class="fa fa-thumbs-down"></i> Non</a>',
+        cancelButtonAriaLabel: 'Thumbs down'
+      })
+}
