@@ -49,7 +49,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020202",endCo
     font-size: 50px;
     
 }
-.bali{
+#bali{
     display: flex;
     flex-direction: row;
     height: 768px;
@@ -64,7 +64,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020202",endCo
 .box1{
     width: 50%;
     height: 100%;
-    
+    font-size: large;
     
 }
 .paragraph1{
@@ -74,7 +74,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020202",endCo
 .container-fluid{
     margin: 50px;
 }
-.horaire{
+#horaire{
     display: flex;
     height: 768px;
     width: auto;
@@ -115,7 +115,7 @@ table {
     
     
 }
-.tarifs{
+#tarifs{
     display: flex;
     height: 768px;
     width: auto;
@@ -141,7 +141,7 @@ table {
   
     
 }
-.contact{
+#contact{
     display: flex;
     height: 768px;
     width: auto;
