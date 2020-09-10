@@ -56,15 +56,18 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020202",endCo
     width: auto;
    
 }
-.image1{
+.parallax{
     width: 50%;
     height: 100%;
-    background-image: url("./Images/naked-rosé-768.jpg");
+    background-image: url();
+  
 }
+
 .box1{
     width: 50%;
     height: 100%;
     font-size: large;
+    background:url("./Images/backrose.png")
     
 }
 .paragraph1{
@@ -105,16 +108,14 @@ table {
     display: flex;
     align-items: center;
     flex-direction: column;
-   
+    background:url("./Images/backrose2.png")
+    
 }
-.box2{
+.parallax2{
     width: 50%;
     height: 100%;
-    background: rgb(16, 44, 126);
-    background-image: url("./Images/rosé_768.jpg");
-    
-    
 }
+
 #tarifs{
     display: flex;
     height: 768px;
@@ -138,7 +139,7 @@ table {
 .box3{
     width: 50%;
     height: 100%;
-  
+    background:url("./Images/backrose.png")
     
 }
 #contact{
@@ -150,10 +151,10 @@ table {
 .image4{
     width: 50%;
     height: 100%;
-   
+    background:url("./Images/backrose2.png")
 }
 .box4{
-    width: 50%;
+   
     height: 100%;
     background: rgb(238, 239, 241);
     background-image: url("./Images/Girl_rosé_768.jpg");
@@ -381,7 +382,10 @@ margin-bottom: 50px;
     #titre2{
     border-bottom: 1px solid #fff;
     }
-    
+    .image2{
+        width: 100%;
+        background-image: url("./Images/bed_rose_inverse.png");
+    }
     .horaire{
         width: 200%;
         background-image: url("./Images/rosé_500_reverse.jpg");
@@ -424,5 +428,7 @@ margin-bottom: 50px;
         margin-left: 40px;
         font-size: larger;
     }
- 
+    .parallax{
+        width: 0%;
+    }
 }

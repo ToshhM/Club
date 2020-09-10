@@ -40,3 +40,14 @@ function myFunction(){
         cancelButtonAriaLabel: 'Thumbs down'
       })
 }
+var elements = document.getElementsByClassName('parallax')
+function mobile() {
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+  elements.classList.remove("parallax");// true for mobile device
+  document.write("mobile device");
+}else{
+  // false for not mobile device
+  console.log(computer);
+  document.write("not mobile device");
+}
+}
